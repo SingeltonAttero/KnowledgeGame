@@ -22,5 +22,6 @@
         <activity android:name=".SingleTouchActivity"
             android:theme="@style/AppTheme"
             />
+        <activity android:name=".MultiTouchActivity" />
     </application>
 </manifest>
