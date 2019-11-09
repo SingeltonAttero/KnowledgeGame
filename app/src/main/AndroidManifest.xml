@@ -19,5 +19,8 @@
         <activity android:name=".LifeCircleActivity"
             android:theme="@style/AppTheme"
             />
+        <activity android:name=".SingleTouchActivity"
+            android:theme="@style/AppTheme"
+            />
     </application>
 </manifest>

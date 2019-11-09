@@ -32,7 +32,9 @@ class ListKnowledgeAdapter(
     class ListKnowledgeHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(name: String, click: (String) -> Unit) {
             itemView.tvName.text = name
+
             itemView.tvName.setOnClickListener {
+                click(name)
                 click(name)
             }
         }
