@@ -29,12 +29,12 @@ class MainListActivity : AppCompatActivity() {
 
     private fun clickEvent(name: String) {
         try {
-
             val nextScreen = Class.forName("${BuildConfig.APPLICATION_ID}.${name}Activity")
             startActivity(Intent(this,nextScreen))
         } catch (ex: ClassNotFoundException) {
             Log.e("error", ex.printStackTrace().toString())
+            Toast.makeText(this, name, Toast.LENGTH_LONG).show()
         }
-        Toast.makeText(this, name, Toast.LENGTH_LONG).show()
+
     }
 }

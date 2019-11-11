@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">KnowledgeGame</string>
     <string name="live_circle_screen">Live circle screen</string>
+    <string name="press_me">press me</string>
+    <string name="accelerometer_test">accelerometer test</string>
+    <string name="not_installed_accelerometer">not accelerometer installed</string>
 </resources>

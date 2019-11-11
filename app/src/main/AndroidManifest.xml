@@ -23,5 +23,8 @@
             android:theme="@style/AppTheme"
             />
         <activity android:name=".MultiTouchActivity" />
+        <activity android:name=".KeyActivity" />
+        <activity android:name=".AccelerometerActivity" />
+        <activity android:name=".AssetsActivity" />
     </application>
 </manifest>
